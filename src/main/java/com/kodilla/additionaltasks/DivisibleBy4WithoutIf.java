@@ -8,10 +8,8 @@ public class DivisibleBy4WithoutIf {
 
     public void divisibleBy4(){
         System.out.println("Numbers divisible by '4' from range 0-100: ");
-        int divisibleBy4 = 0;
-        for(int i=0; divisibleBy4+4<=100; i++){
-            divisibleBy4+=4;
-            System.out.println(divisibleBy4);
+            for(int i=0; i<=100; i+=4){
+            System.out.println(i);
         }
     }
 

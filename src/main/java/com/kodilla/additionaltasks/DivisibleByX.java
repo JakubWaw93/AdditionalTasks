@@ -27,7 +27,7 @@ public class DivisibleByX {
 
         ArrayList<Integer> usableList;
         usableList = divFunction(x,a,b);
-        System.out.println(usableList);
+        //System.out.println(usableList);
     }
 
 }
