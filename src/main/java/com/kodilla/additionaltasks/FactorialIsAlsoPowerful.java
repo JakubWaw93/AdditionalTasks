@@ -1,6 +1,6 @@
 package com.kodilla.additionaltasks;
 
-public class WeAreThePower2 {
+public class FactorialIsAlsoPowerful {
 
     public static long thePower(long a) {
 
@@ -20,8 +20,8 @@ public class WeAreThePower2 {
     public static void main(String[] args) {
 
         try {
-            long exampleNumber = 0;
-            System.out.println(WeAreThePower2.thePower(exampleNumber));
+            long exampleNumber = 3;
+            System.out.println(FactorialIsAlsoPowerful.thePower(exampleNumber));
         } catch (ArithmeticException e) {
             System.out.println("You cannot use negative numbers");
         }
