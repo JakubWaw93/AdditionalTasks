@@ -10,15 +10,16 @@ public class FibonaccisCravings {
                 y = x + y;
                 x = y - x;
             }
+            return x;
 
         } else {
-            System.out.println("Choose element of th sequence, it begins with '1'.");
+            System.out.println("Choose number of element of the sequence, it begins with '1'.");
+            return -1;
         }
-        return x;
     }
 
     public static void main(String[] args) {
-        System.out.println(fibonacciSequence(9));
+        System.out.println(fibonacciSequence(51));
     }
 
 }
